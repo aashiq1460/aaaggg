@@ -1,0 +1,7 @@
+import math
+def swap_coordinates(point):
+    distance = math.sqrt((point[0])** 2 + (point[1]) ** 2)
+    return point[::-1], distance
+
+point=(2,4)
+print(swap_coordinates(point))
